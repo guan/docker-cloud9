@@ -1,0 +1,8 @@
+{
+  "name": "docker-cloud9-v3",
+  "description": "docker-cloud9-v3",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": 
+    {"start": "/cloud9/server.js --listen 0.0.0.0 --port 80 -w /workspace"}
+}
