@@ -11,7 +11,7 @@ cloud9:
     - 8080:80
     - 15454:15454
     - 3000:3000
-    - 5000:5000
+    - 4000:4000
   volumes:
     - ./workspace:/workspace
   command: node /cloud9/server.js --port 80 -w /workspace --auth user:password
