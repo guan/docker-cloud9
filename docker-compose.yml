@@ -8,6 +8,7 @@ cloud9:
     - 4000:4000
   volumes:
     - ./workspace:/workspace
+    - ~/.gitconfig:/root/.gitoconfig
     - ~/.ssh/id_rsa:/root/.ssh/id_rsa:ro
     - /etc/localtime:/etc/localtime:ro
   command: node /cloud9/server.js --port 80 -w /workspace --auth user:password
